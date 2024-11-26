@@ -32,6 +32,7 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.1.2
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -68,7 +69,7 @@ flutter:
       android:
         androidPackage: com.posprinter.printdemo.activity
         mainClass: com.posprinter.printdemo.MainActivity
-        dartPluginClass: FlutterPrinterLabelPluginAndroid
+        dartPluginClass: FlutterPrinterLabel
        
     # -------------------
   # An image asset can refer to one or more resolution-specific "variants", see
